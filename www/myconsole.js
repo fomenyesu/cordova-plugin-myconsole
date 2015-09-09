@@ -31,7 +31,7 @@ var exec = require('cordova/exec');
  * @returns {*}
  */
        nativeFunction: function(method, parameter, success, fail) {
-        exec(success, fail, "MyPlugin", method, parameter);
+        exec(success, fail, "myconsole", method, parameter);
        }
     };
 module.exports = myconsole;
