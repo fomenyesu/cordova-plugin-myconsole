@@ -21,7 +21,7 @@
 
 var exec = require('cordova/exec');
 
-    var myconsole = {
+    var MyConsole = {
 /**
  * 调用IOS方法
  * @param method 要调用IOS插件的方法名
@@ -31,8 +31,8 @@ var exec = require('cordova/exec');
  * @returns {*}
  */
        nativeFunction: function(method, parameter, success, fail) {
-        exec(success, fail, "myconsole", method, parameter);
+        exec(success, fail, "MyPlugin", method, parameter);
        }
     };
-module.exports = myconsole;
+module.exports = MyConsole;
 

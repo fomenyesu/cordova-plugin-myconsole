@@ -24,7 +24,7 @@
     id="cordova-plugin-myconsole"
     version="1.0.1">
     <name>MyConsole</name>
-    <description>Cordova myconsole Plugin</description>
+    <description>Cordova MyConsole Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,myconsole</keywords>
     <js-module src="www/myconsole.js" name="myconsole">
@@ -34,7 +34,7 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="myconsole">
+            <feature name="MyPlugin">
                 <param name="ios-package" value="CDVMyPlugin"/>
                 <param name="onload" value="true"/>
             </feature>
