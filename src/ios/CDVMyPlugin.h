@@ -15,6 +15,6 @@
 
 // Instance Method
 
-- (void) print:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
+- (void) print:(CDVInvokedUrlCommand*)command;
 
 @end
