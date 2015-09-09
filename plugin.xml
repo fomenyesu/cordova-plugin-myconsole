@@ -34,7 +34,7 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="MyConsole">
+            <feature name="myconsole">
                 <param name="ios-package" value="CDVMyPlugin"/>
                 <param name="onload" value="true"/>
             </feature>

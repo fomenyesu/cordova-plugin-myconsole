@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-myconsole.MyConsole", function(require, exports, module) { /*
+/*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -36,4 +36,3 @@ var exec = require('cordova/exec');
     };
 module.exports = myconsole;
 
-});
